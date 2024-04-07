@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>menu.png</file>
+    <file>itinerary.png</file>
+    <file>log-out.png</file>
+    <file>search-interface-symbol.png</file>
+    <file>settings.png</file>
+    <file>user.png</file>
+    <file>bell.png</file>
+    <file>clipboard.png</file>
+  </qresource>
+</RCC>

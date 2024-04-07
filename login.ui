@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="bgwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgwidget{
+background-color: qlineargradient(spread:pad, x1:0.0578947, y1:0.063, x2:1, y2:1, stop:0 rgba(85, 170, 255, 255), stop:1 rgba(255, 255, 255, 255));}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>60</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255); font: 26pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Đăng nhập</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>150</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;color:rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Tên đăng nhập</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dangnhap">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>200</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0);
+font: 12pt &quot;MS Shell Dlg 2&quot;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="matkhau">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>310</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0); 
+font: 12pt &quot;MS Shell Dlg 2&quot;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>260</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;color:rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Mật khẩu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dangnhapbtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>410</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;
+background-color: rgb(255, 255, 255);
+font: 11pt &quot;MS Shell Dlg 2&quot;; color: rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Đăng nhập</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="loi">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>360</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;MS Shell Dlg 2&quot;;color: red</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>480</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Chưa có tài khoản?</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dangkybtn1">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>470</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;
+background-color: rgb(255, 255, 255);
+font: 11pt &quot;MS Shell Dlg 2&quot;; color: rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Đăng ký</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
